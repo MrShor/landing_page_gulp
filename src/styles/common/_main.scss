@@ -64,7 +64,7 @@ body {
     width: 100%;
     max-width: 1440px;
 
-    @media screen and (max-width: 768px) {
+    @media screen and (max-width: 1024px) {
         position: fixed;
         z-index: 20;
         background: #FFFFFF;
