@@ -1,0 +1,74 @@
+@font-face {
+	font-family: "icons";
+	src: url('src/assets/fonts/icons.eot');
+	src: url('src/assets/fonts/icons.eot?#iefix') format('eot'),
+		url('src/assets/fonts/icons.woff2') format('woff2'),
+		url('src/assets/fonts/icons.woff') format('woff'),
+		url('src/assets/fonts/icons.ttf') format('truetype'),
+		url('src/assets/fonts/icons.svg#icons') format('svg');
+}
+
+.icon:before {
+	font-family: "icons";
+		-webkit-font-smoothing: antialiased;
+		-moz-osx-font-smoothing: grayscale;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+	/* speak: none; only necessary if not using the private unicode range (firstGlyph option) */
+	text-decoration: none;
+	text-transform: none;
+}
+
+
+.icon-arrow_2:before {
+	content: "\E001";
+}
+
+.icon-arrow_3:before {
+	content: "\E002";
+}
+
+.icon-arr_next:before {
+	content: "\E003";
+}
+
+.icon-arr_prev:before {
+	content: "\E004";
+}
+
+.icon-body:before {
+	content: "\E005";
+}
+
+.icon-coaches:before {
+	content: "\E006";
+}
+
+.icon-coffee:before {
+	content: "\E007";
+}
+
+.icon-door:before {
+	content: "\E008";
+}
+
+.icon-emotions:before {
+	content: "\E009";
+}
+
+.icon-happiness:before {
+	content: "\E00A";
+}
+
+.icon-photos:before {
+	content: "\E00B";
+}
+
+.icon-slide_btn_mobile:before {
+	content: "\E00C";
+}
+
+.icon-star:before {
+	content: "\E00D";
+}
